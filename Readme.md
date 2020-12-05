@@ -1,16 +1,13 @@
 ****Pre-requisite****  
-You should have eclipse and maven installed.
+You should have maven installed.
 
 
 ****RUN****
 
 *To test with the current configurations:*
 
-run pom.xml file at root with giving goal as "clean install"  
-Right click on "pom.xml"--> Select"Maven build"--> enter the value "clean install" in "Goals" field and click "Run" button.  
-**OR**													
-run testng.xml file at root  
-Right click on "testng.xml"--> Select"Run As"--> Select"TestNG Suite"
+From command line, go to the root directory where pom.xml is there and give the command  
+`mvn clean install'
 												
 
 ****Result****
@@ -38,7 +35,8 @@ after changing value from Nottingham to Pune,the line will look as:
 **OR**      					
 after changing value from Nottingham to 36.96,-122.02,the line will look as:
 
-`<parameter name="querystring" value="36.96,-122.02"></parameter>`
+`<parameter name="querystring" value="36.96,-122.02"></parameter>  
+Then run again the test by following steps in "RUN" above
 
 
 **Action2:**
@@ -47,13 +45,14 @@ Uncomment the given line in below @BeforeTest method by removing **//**
 This will override the querystring value from testng.xml to random value from excel sheet
 
 `public void response_to_get_woeid_from_api(String querystring) {
-		//	querystring =excel.getQueryString();`
+		//	querystring =excel.getQueryString();`  
+Then run again the test by following steps in "RUN" above
 		
 **Scenario 2**
 
 Give value of querystring as empty like below in testng.xml, Then this will give error status code 403 and all  tests will fail.    
-`<parameter name="querystring" value=""></parameter>`
-
+`<parameter name="querystring" value=""></parameter>`  
+Then run again the test by following steps in "RUN" above
 
 **Scenario 3**
 
@@ -69,14 +68,15 @@ Double click on "testng.xml" file in root.Change the value of "2018/10/17" to yo
 
 after changing value from 2018/10/17 to 2019/07/25,the line will look as  
 `<parameter name="date" value="2019/07/25"></parameter>`
+Then run again the test by following steps in "RUN" above
 
 **Action2:**
 Uncomment  // from below line in @Test, for whatever Test you want to use value from Excel.  
 This will override the date from testng.xml to random date from excel sheet.  
 eg:if you have uncommented the line only in single test say "Testdate", then for only "Testdate", the date value will be taken from excel sheet, other tests will still use value of date in testng.xml  
 `@Test`    
-`//    date = excel.getQueryDate();`	
-
+`//    date = excel.getQueryDate();`  	
+Then run again the test by following steps in "RUN" above
 ***Testcases***
 1. *weather_report_for_tomorrow_for_entered_location* ----      Description: Get response for tommorow's date for entered query
 2. *weather_report_for_anydate_for_entered_location* ----       Description: Get response for any date passed
