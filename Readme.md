@@ -92,9 +92,6 @@ Then run again the test by following steps in "RUN" above
 12. *check_put_req_query_url* ----    							Description: Verify put req not allowed with woeid url
 13. *check_put_req_woeid_url* ----    							Description: Verify put req not allowed with woeid url
 14. *check_put_req_date_url* ----   							Description: Verify put req not allowed with date url
-15. *check_head_req_query_url* ----  							Description: Verify status code,response body and header is valid for head req with query url
-16. *check_head_req_woeid_url* ----   							Description: Verify status code,response body and header is valid for head req with woeid url
-17. *check_head_req_date_url* ----  							Description: Verify status code,response body and header is valid for head req with date url
-18. *check_options_req_query_url* ----       					Description: Verify status code,response body and header is valid for options req with query url
-19. *check_options_req_woeid_url* ----      					Description: Verify status code,response body and header is valid for options req with woeid url
-20. *check_options_req_date_url* ----    						Description: Verify status code,response body and header is valid for options req with date url
+15. *check_options_req_query_url* ----       					Description: Verify status code,response body and header is valid for options req with query url
+17. *check_options_req_woeid_url* ----      					Description: Verify status code,response body and header is valid for options req with woeid url
+17. *check_options_req_date_url* ----    						Description: Verify status code,response body and header is valid for options req with date url
