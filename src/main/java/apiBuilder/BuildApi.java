@@ -122,13 +122,13 @@ public class BuildApi {
 	}
 	//head request for url with woeid
 	public static Response head_response_of_url_with_woeid(Response response) throws InterruptedException {
-		head_url = api_url_with_woeid(response)+ "/";
+		head_url = api_url_with_woeid(response);
 		Response resp_of_head = request.head(head_url);
 		return resp_of_head;
 	}
 	//head request for url with date
 	public static Response head_response_of_url_with_date(Response response, String date) {
-		head_url = api_url_with_date(response,date)+"/";
+		head_url = api_url_with_date(response,date);
 		Response resp_of_head = request.head(head_url);
 		return resp_of_head;
 	}	
