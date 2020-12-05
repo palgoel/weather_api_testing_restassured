@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" parallel="tests" name="Test">
+		<parameter name="querystring" value="Nottingham"></parameter>
+		<parameter name="country_woeid" value="23424848"></parameter>
+		<!-- <parameter name="querystring" value="36.96,-122.02"></parameter> -->
+		<parameter name="date" value="2018/10/17"></parameter>
+		<classes>
+			<class name="testcases.TestAPI" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="date" value="2018/10/17"/>
+    <parameter name="country_woeid" value="23424848"/>
+    <parameter name="querystring" value="india"/>
+    <classes>
+      <class name="testcases.TestAPI">
+        <methods>
+          <include name="check_head_req_woeid_url"/>
+          <include name="stop_test"/>
+          <include name="setupSuite"/>
+          <include name="tear"/>
+          <include name="method_name"/>
+          <include name="response_to_get_woeid_from_api"/>
+        </methods>
+      </class> <!-- testcases.TestAPI -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-05T13:00:33 IST" name="Suite" finished-at="2020-12-05T13:00:59 IST" duration-ms="26365">
+    <groups>
+    </groups>
+    <test started-at="2020-12-05T13:00:33 IST" name="Test" finished-at="2020-12-05T13:00:59 IST" duration-ms="26365">
+      <class name="testcases.TestAPI">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:32 IST" name="setupSuite" finished-at="2020-12-05T13:00:33 IST" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="response_to_get_woeid_from_api(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:33 IST" name="response_to_get_woeid_from_api" finished-at="2020-12-05T13:00:36 IST" duration-ms="3065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nottingham]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- response_to_get_woeid_from_api -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:36 IST" name="method_name" finished-at="2020-12-05T13:00:36 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_fields_for_api_with_date(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_fields_for_api_with_date(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:36 IST" name="check_fields_for_api_with_date" finished-at="2020-12-05T13:00:38 IST" duration-ms="1690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2018/10/17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_fields_for_api_with_date -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:38 IST" name="tear" finished-at="2020-12-05T13:00:38 IST" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_fields_for_api_with_date status=SUCCESS method=TestAPI.check_fields_for_api_with_date(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:38 IST" name="method_name" finished-at="2020-12-05T13:00:38 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_fields_for_api_with_woeid()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_fields_for_api_with_woeid()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:38 IST" name="check_fields_for_api_with_woeid" finished-at="2020-12-05T13:00:39 IST" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_fields_for_api_with_woeid -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:39 IST" name="tear" finished-at="2020-12-05T13:00:39 IST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_fields_for_api_with_woeid status=SUCCESS method=TestAPI.check_fields_for_api_with_woeid()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method signature="check_fields_for_consolidated_weather()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:39 IST" name="check_fields_for_consolidated_weather" finished-at="2020-12-05T13:00:41 IST" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_fields_for_consolidated_weather -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:39 IST" name="method_name" finished-at="2020-12-05T13:00:39 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_fields_for_consolidated_weather()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:41 IST" name="tear" finished-at="2020-12-05T13:00:41 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_fields_for_consolidated_weather status=SUCCESS method=TestAPI.check_fields_for_consolidated_weather()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:41 IST" name="method_name" finished-at="2020-12-05T13:00:41 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_head_req_date_url(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_head_req_date_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:41 IST" name="check_head_req_date_url" finished-at="2020-12-05T13:00:42 IST" duration-ms="861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2018/10/17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_head_req_date_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:42 IST" name="tear" finished-at="2020-12-05T13:00:42 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_head_req_date_url status=SUCCESS method=TestAPI.check_head_req_date_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:42 IST" name="method_name" finished-at="2020-12-05T13:00:42 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_head_req_query_url()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_head_req_query_url()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:42 IST" name="check_head_req_query_url" finished-at="2020-12-05T13:00:43 IST" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_head_req_query_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:43 IST" name="tear" finished-at="2020-12-05T13:00:43 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_head_req_query_url status=SUCCESS method=TestAPI.check_head_req_query_url()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:43 IST" name="method_name" finished-at="2020-12-05T13:00:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_head_req_woeid_url() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_head_req_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:43 IST" name="check_head_req_woeid_url" finished-at="2020-12-05T13:00:44 IST" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_head_req_woeid_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:44 IST" name="tear" finished-at="2020-12-05T13:00:44 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_head_req_woeid_url status=SUCCESS method=TestAPI.check_head_req_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:44 IST" name="method_name" finished-at="2020-12-05T13:00:44 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_number_of_forecast_with_woeid_url()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_number_of_forecast_with_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:44 IST" name="check_number_of_forecast_with_woeid_url" finished-at="2020-12-05T13:00:46 IST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_number_of_forecast_with_woeid_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:46 IST" name="tear" finished-at="2020-12-05T13:00:46 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_number_of_forecast_with_woeid_url status=SUCCESS method=TestAPI.check_number_of_forecast_with_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:46 IST" name="method_name" finished-at="2020-12-05T13:00:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_options_req_date_url(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_options_req_date_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:46 IST" name="check_options_req_date_url" finished-at="2020-12-05T13:00:47 IST" duration-ms="644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2018/10/17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_options_req_date_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:47 IST" name="tear" finished-at="2020-12-05T13:00:47 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_options_req_date_url status=SUCCESS method=TestAPI.check_options_req_date_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:47 IST" name="method_name" finished-at="2020-12-05T13:00:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_options_req_query_url()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_options_req_query_url()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:47 IST" name="check_options_req_query_url" finished-at="2020-12-05T13:00:47 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_options_req_query_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:47 IST" name="tear" finished-at="2020-12-05T13:00:47 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_options_req_query_url status=SUCCESS method=TestAPI.check_options_req_query_url()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:47 IST" name="method_name" finished-at="2020-12-05T13:00:47 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_options_req_woeid_url() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_options_req_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:47 IST" name="check_options_req_woeid_url" finished-at="2020-12-05T13:00:48 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_options_req_woeid_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:48 IST" name="tear" finished-at="2020-12-05T13:00:48 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_options_req_woeid_url status=SUCCESS method=TestAPI.check_options_req_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:48 IST" name="method_name" finished-at="2020-12-05T13:00:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_post_req_date_url(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_post_req_date_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:48 IST" name="check_post_req_date_url" finished-at="2020-12-05T13:00:49 IST" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2018/10/17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_post_req_date_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:49 IST" name="tear" finished-at="2020-12-05T13:00:49 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_post_req_date_url status=SUCCESS method=TestAPI.check_post_req_date_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method signature="check_post_req_query_url()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:49 IST" name="check_post_req_query_url" finished-at="2020-12-05T13:00:50 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_post_req_query_url -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:49 IST" name="method_name" finished-at="2020-12-05T13:00:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_post_req_query_url()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:50 IST" name="tear" finished-at="2020-12-05T13:00:50 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_post_req_query_url status=SUCCESS method=TestAPI.check_post_req_query_url()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:50 IST" name="method_name" finished-at="2020-12-05T13:00:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_post_req_woeid_url() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_post_req_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:50 IST" name="check_post_req_woeid_url" finished-at="2020-12-05T13:00:50 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_post_req_woeid_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:50 IST" name="tear" finished-at="2020-12-05T13:00:50 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_post_req_woeid_url status=SUCCESS method=TestAPI.check_post_req_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:50 IST" name="method_name" finished-at="2020-12-05T13:00:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_put_req_date_url(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_put_req_date_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:50 IST" name="check_put_req_date_url" finished-at="2020-12-05T13:00:51 IST" duration-ms="674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2018/10/17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_put_req_date_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:51 IST" name="tear" finished-at="2020-12-05T13:00:51 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_put_req_date_url status=SUCCESS method=TestAPI.check_put_req_date_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:51 IST" name="method_name" finished-at="2020-12-05T13:00:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_put_req_query_url()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_put_req_query_url()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:51 IST" name="check_put_req_query_url" finished-at="2020-12-05T13:00:52 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_put_req_query_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:52 IST" name="tear" finished-at="2020-12-05T13:00:52 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_put_req_query_url status=SUCCESS method=TestAPI.check_put_req_query_url()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:52 IST" name="method_name" finished-at="2020-12-05T13:00:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_put_req_woeid_url() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_put_req_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:52 IST" name="check_put_req_woeid_url" finished-at="2020-12-05T13:00:52 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_put_req_woeid_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:52 IST" name="tear" finished-at="2020-12-05T13:00:52 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_put_req_woeid_url status=SUCCESS method=TestAPI.check_put_req_woeid_url()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:52 IST" name="method_name" finished-at="2020-12-05T13:00:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_response_for_country_woeid_url(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="check_response_for_country_woeid_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:52 IST" name="check_response_for_country_woeid_url" finished-at="2020-12-05T13:00:54 IST" duration-ms="1226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23424848]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_response_for_country_woeid_url -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:54 IST" name="tear" finished-at="2020-12-05T13:00:54 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_response_for_country_woeid_url status=SUCCESS method=TestAPI.check_response_for_country_woeid_url(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method signature="weather_report_for_anydate_for_entered_location(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:54 IST" name="weather_report_for_anydate_for_entered_location" finished-at="2020-12-05T13:00:55 IST" duration-ms="1652" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2018/10/17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weather_report_for_anydate_for_entered_location -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:54 IST" name="method_name" finished-at="2020-12-05T13:00:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.weather_report_for_anydate_for_entered_location(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:55 IST" name="tear" finished-at="2020-12-05T13:00:55 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=weather_report_for_anydate_for_entered_location status=SUCCESS method=TestAPI.weather_report_for_anydate_for_entered_location(java.lang.String)[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:55 IST" name="method_name" finished-at="2020-12-05T13:00:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.weather_report_for_tomorrow_for_entered_location()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method signature="weather_report_for_tomorrow_for_entered_location()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:55 IST" name="weather_report_for_tomorrow_for_entered_location" finished-at="2020-12-05T13:00:57 IST" duration-ms="1462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weather_report_for_tomorrow_for_entered_location -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:57 IST" name="tear" finished-at="2020-12-05T13:00:57 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=weather_report_for_tomorrow_for_entered_location status=SUCCESS method=TestAPI.weather_report_for_tomorrow_for_entered_location()[pri:0, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method signature="check_get_after_post_req_woeid_url()[pri:1, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:57 IST" name="check_get_after_post_req_woeid_url" finished-at="2020-12-05T13:00:59 IST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_get_after_post_req_woeid_url -->
+        <test-method is-config="true" signature="method_name(java.lang.reflect.Method)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:57 IST" name="method_name" finished-at="2020-12-05T13:00:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.TestAPI.check_get_after_post_req_woeid_url() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_name -->
+        <test-method is-config="true" signature="tear(org.testng.ITestResult)[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:59 IST" name="tear" finished-at="2020-12-05T13:00:59 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_get_after_post_req_woeid_url status=SUCCESS method=TestAPI.check_get_after_post_req_woeid_url()[pri:1, instance:testcases.TestAPI@13b13b5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="stop_test()[pri:0, instance:testcases.TestAPI@13b13b5d]" started-at="2020-12-05T13:00:59 IST" name="stop_test" finished-at="2020-12-05T13:00:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop_test -->
+      </class> <!-- testcases.TestAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
