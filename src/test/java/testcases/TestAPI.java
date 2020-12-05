@@ -327,40 +327,40 @@ public class TestAPI extends BaseTest {
 			Assert.assertTrue(false);
 		}
 	}
-	//Check status code of head req with query url is 200
-	@Test(enabled = true)
-	public void check_head_req_query_url() { 
-		logger.setDescription("This test is to check the head request response for query url");	
-		Response head_response =  apiBuilder.BuildApi.head_response_of_url_with_location_title(resp_to_get_woeid);
-		if(!check_status_code(head_response)) {
-			logger.log(LogStatus.INFO, "There is some issue with head method");
-			Assert.assertTrue(false);
-		}
-		Assert.assertTrue(true);
-	}
-	//Check status code of head req with woeid url is 200
-	@Test(enabled = true)
-	public void check_head_req_woeid_url() throws InterruptedException { 
-		logger.setDescription("This test is to check the head request response for woeid url");		
-		Response head_response = apiBuilder.BuildApi.head_response_of_url_with_woeid(resp_to_get_woeid);
-		if(!check_status_code(head_response)) {
-			logger.log(LogStatus.INFO, "There is some issue with head method");
-			Assert.assertTrue(false);
-		}
-		Assert.assertTrue(true);
-	}
-	//Check status code of head req with date url is 200
-	@Test(enabled = true)
-	@Parameters("date")
-	public void check_head_req_date_url(String date) { //here date is from @Parameters if u want date from xl, add as first line in below func " date = excel.getQueryDate();"// takes data from 2nd column of excel
-		//date = excel.getQueryDate();// takes data from 2nd column of excellogger.setDescription("This test is to check the head request response for date url");		
-		Response head_response = apiBuilder.BuildApi.head_response_of_url_with_date(resp_to_get_woeid,date);
-		if(!check_status_code(head_response)) {
-			logger.log(LogStatus.INFO, "There is some issue with head method");
-			Assert.assertTrue(false);
-		}
-		Assert.assertTrue(true);
-	}
+// 	//Check status code of head req with query url is 200
+// 	@Test(enabled = true)
+// 	public void check_head_req_query_url() { 
+// 		logger.setDescription("This test is to check the head request response for query url");	
+// 		Response head_response =  apiBuilder.BuildApi.head_response_of_url_with_location_title(resp_to_get_woeid);
+// 		if(!check_status_code(head_response)) {
+// 			logger.log(LogStatus.INFO, "There is some issue with head method");
+// 			Assert.assertTrue(false);
+// 		}
+// 		Assert.assertTrue(true);
+// 	}
+// 	//Check status code of head req with woeid url is 200
+// 	@Test(enabled = true)
+// 	public void check_head_req_woeid_url() throws InterruptedException { 
+// 		logger.setDescription("This test is to check the head request response for woeid url");		
+// 		Response head_response = apiBuilder.BuildApi.head_response_of_url_with_woeid(resp_to_get_woeid);
+// 		if(!check_status_code(head_response)) {
+// 			logger.log(LogStatus.INFO, "There is some issue with head method");
+// 			Assert.assertTrue(false);
+// 		}
+// 		Assert.assertTrue(true);
+// 	}
+// 	//Check status code of head req with date url is 200
+// 	@Test(enabled = true)
+// 	@Parameters("date")
+// 	public void check_head_req_date_url(String date) { //here date is from @Parameters if u want date from xl, add as first line in below func " date = excel.getQueryDate();"// takes data from 2nd column of excel
+// 		//date = excel.getQueryDate();// takes data from 2nd column of excellogger.setDescription("This test is to check the head request response for date url");		
+// 		Response head_response = apiBuilder.BuildApi.head_response_of_url_with_date(resp_to_get_woeid,date);
+// 		if(!check_status_code(head_response)) {
+// 			logger.log(LogStatus.INFO, "There is some issue with head method");
+// 			Assert.assertTrue(false);
+// 		}
+// 		Assert.assertTrue(true);
+// 	}
 	//Check status code,response body and header is valid for options req with query url
 	@Test(enabled = true)
 	public void check_options_req_query_url() { 
