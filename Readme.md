@@ -1,3 +1,7 @@
+****Pre-requisite****
+You should have eclipse and maven installed.
+
+
 ****RUN****
 
 *To test with the current configurations:*
